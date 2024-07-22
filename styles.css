@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: hsl(237, 51%, 10%);
+}
+::-webkit-scrollbar-thumb{
+    background-color: hsl(237, 51%, 20%);
+}
+body{
+    font-family: sans-serif;
+    scroll-padding-top: 30em;
+}
+header{
+    background-color: hsl(237, 51%, 15%);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+    padding: 10px;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    font-family: "Raleway";
+    font-weight: 300px;
+    font-size: 1.1em;
+    margin: 0px;
+    font-size: 1.5em;
+    padding-left: 1.5em;
+}
+.navbar-items{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.nav-items{
+    font-family: "Raleway";
+    font-weight: 300px;
+    font-size: 1em;
+    padding: 20px;
+    font-weight: 600;
+}
+section{
+    padding: 100px 50px;
+}
+
+#main{
+    min-height: 100vh;
+    width: 100%;
+    background-color: hsl(237, 51%, 15%);
+    margin: 0px;
+    padding: 0px;
+    align-content: center;
+    text-align: center;
+}
+.htext{
+    margin: 0px;
+    padding: 0px;
+}
+#intro{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+#intitle{
+    color: hsl(221, 74%, 55%);
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#work-btn{
+    text-decoration: none;
+    color: white;
+    min-width: 8em;
+    border-radius: 10px;
+    min-height: 3em;
+    display: inline-block;
+    margin-top: 0px;
+    align-content: center;
+    text-align: center;
+    background-color: hsl(227, 95%, 36%);
+    transition: 0.9s ease;
+}
+
+#work-btn:hover{
+    background-color: hsl(227, 95%, 55%);
+    transform: scale(1.1);
+}
+
+#projects{
+    min-height: 400px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.title{
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px;
+    color: #191C4D;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: white;
+    border: 1px solid darkgrey;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #191C4D;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: translateY(-4%);
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.project-details{
+    padding: 1em;
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: black;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.project-category span{
+    color: hsl(237, 51%, 50%);
+}
+
+.project-category .comma{
+    color: black;
+    font-size: 25px;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.open-project{
+    text-decoration: none;
+    color: #191C4D;
+}
+
+.open-project:hover{
+    color: hsl(237, 51%, 45%);
+}
+
+.contact h2{
+    color: white;
+}
+
+.contact{
+    background-color: #191C4D;
+}
+
+.contact-card{
+        background-color: white;
+        min-height: 10em;
+        min-width: 20.6em;
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px;
+        transition: 0.7s ease;
+        align-items: center;
+        text-align: center;
+}
+
+.icon{
+    text-align: center;
+    margin: 15px;
+}
+
+svg{
+    fill: #191C4D;
+    width: 128px;
+    height: 128px;
+}
+
+.info{
+    text-align: center;
+    margin: 10px;
+}
+
+
+.info h3{
+ color: black;
+ font-size: 1.2em;
+}
+
+.info p{
+    margin-bottom: 1.5em;
+    font-size: 1.5em;
+    color: black;
+    padding: 0px 10px;
+}
+
+.contactlinks{
+    text-decoration: none;
+}
+
+
+.contact-card:hover{
+    transform: translateY(-10%);
+}
+
+.footicon svg{
+ width: 30px;
+ height: 30px;
+}
+
+.contact-icons{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer span{
+    color: hsl(237, 51%, 20%);
+    font-weight: 700;
+}
+
+@media (max-width:1024px) and (orientation:portrait) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .title{
+        margin-bottom: 20px;
+        font-size: 3em;
+    }
+    #projects{
+        padding-bottom: 70px;
+    }
+    #intro{
+        font-size: 5em;
+    }
+    #intitle{
+        font-size: 3em;
+    }
+    #work-btn{
+        font-size: 1.5em;
+    }
+    #logo{
+        font-size: 2.5em;
+        padding: 20px 20px 20px 35px;
+    }
+    .navbar-items{
+        font-size: 2em;
+
+    }
+    body{
+        font-size: 18px;
+    }
+    .project-card{
+        width: 80%;
+        align-items: center;
+    }
+    .contact-card{
+        min-width: 70%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contactlinks{
+        min-width: 70%;
+    }
+    .footicon svg{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width:1024px) and (orientation:landscape) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card{
+        width: 80%;
+        align-items: center;
+    }
+    .contact-card{
+        min-width: 70%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .contactlinks{
+        min-width: 70%;
+    }
+}
